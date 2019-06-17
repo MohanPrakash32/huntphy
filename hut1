@@ -1,0 +1,14 @@
+aa=int(input())
+bb=list(map(int,input().split()))
+zz=[]
+for x in range(aa):
+    for i in range(a+1,len(bb)):
+        if(bb[i]==bb[a]):
+          zz.append(bb[a])
+if (len(zz)==0):
+    print("unique")
+else:
+    zz.sort()
+    li2=set(zz)
+    for a in li2:
+        print(a,end=" ")
